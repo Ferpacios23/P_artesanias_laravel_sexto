@@ -65,7 +65,7 @@ html {
 
 @media (min-width: 768px) {
     .producto img {
-        height: 45rem; /* Establece la altura de las imágenes en la sección de productos */
+        height: 51rem; /* Establece la altura de las imágenes en la sección de productos */
         width: 100%; /* Asegura que la imagen ocupe el 100% del ancho */
         object-fit: cover; /* Mantiene las proporciones de la imagen al ajustarla */
     }

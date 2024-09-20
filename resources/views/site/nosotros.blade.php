@@ -35,11 +35,10 @@
 					</div>
 
 					<div class="container-user">
-						<a href="{{ url('/login') }}">
-						
-							<i class="fa-solid fa-user"  > </i>
-						</a>
-						<i class="fa-solid fa-basket-shopping"></i>
+						<a href="{{ url('/login') }}"><i class="fa-solid fa-user"  > </i>	</a>
+
+						<a href="{{ url('/pago') }}"><i class="fa-solid fa-basket-shopping"></i></a>
+
 						<div class="content-shopping-cart">
 							<span class="text">Carrito</span>
 							<span class="number">(0)</span>
@@ -68,6 +67,24 @@
 			</div>
 		</header>
 
+		<main class="container-xl py-5">
+			<h2 class="text-center my-5">Sobre Nosotros</h2>
+
+			<div class="row g-5 align-items-center">
+				<div class="col-md-6">
+					<img src="{{asset('/img/banner.jpg')}}" alt="imagen sobre nosotros" class="img-fluid">
+				</div>
+				<div class="col-md-6 ">
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, tempora ducimus? Illum numquam delectus beatae sunt tempore odit tenetur fugit, officia laboriosam officiis. Dolorum, omnis consequuntur facere qui vel nobis.
+
+					</p>
+					<p>
+						Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam dolore, neque, adipisci, eum voluptas nulla impedit nemo non rem sunt odit officiis laboriosam quasi laborum. Eum id quo magnam officia.
+					</p>
+				</div>
+			</div>
+		</main>
 
 
 

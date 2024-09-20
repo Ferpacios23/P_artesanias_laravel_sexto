@@ -35,10 +35,9 @@
 					</div>
 
 					<div class="container-user">
-						<a href="{{ url('/login') }}"><i class="fa-solid fa-user"  > </i>	</a>
+						<a href="{{ url('/login') }}">	<i class="fa-solid fa-user"  > </i>	</a>
 
-						<a href="{{ url('/pago') }}"><i class="fa-solid fa-basket-shopping"></i></a>
-
+						<a href=""> <i class="fa-solid fa-basket-shopping"></i>	</a>
 						<div class="content-shopping-cart">
 							<span class="text">Carrito</span>
 							<span class="number">(0)</span>

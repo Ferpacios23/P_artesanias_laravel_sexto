@@ -11,3 +11,5 @@ Route::get('/login', function () {return view('site/login');});
 Route::get('/tienda', function () {return view('site/tienda');});
 
 Route::get('/nosotros', function () {return view('site/nosotros');});
+
+Route::get('/pago', function () {return view('site/pago');});

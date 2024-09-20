@@ -68,7 +68,11 @@
 		</header>
 
 
+        <main class="container-xl py-5">
+			<h2 class="text-center my-5">Sitio De Pago</h2>
 
+
+        </main>
 
 
         <footer class="footer">

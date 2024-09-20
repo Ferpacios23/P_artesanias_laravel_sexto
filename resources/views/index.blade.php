@@ -36,11 +36,10 @@
 					</div>
 
 					<div class="container-user">
-						<a href="{{ url('/login') }}">
-						
-							<i class="fa-solid fa-user"  > </i>
-						</a>
-						<i class="fa-solid fa-basket-shopping"></i>
+						<a href="{{ url('/login') }}"><i class="fa-solid fa-user"  > </i>	</a>
+
+						<a href="{{ url('/pago') }}"><i class="fa-solid fa-basket-shopping"></i></a>
+
 						<div class="content-shopping-cart">
 							<span class="text">Carrito</span>
 							<span class="number">(0)</span>
@@ -77,7 +76,8 @@
 		</section>
 
 		<main class="main-content">
-			<section class="container container-features">
+			<section class="container container-features cont">
+				
 				<div class="card-feature">
 					<i class="fa-solid fa-plane-up"></i>
 					<div class="feature-content">
